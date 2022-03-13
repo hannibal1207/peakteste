@@ -7,14 +7,16 @@ import { LoginComponent } from './login/login.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { PerfilComponent } from './perfil/perfil.component';
+import { NavComponent } from './nav/nav.component';
 
 @NgModule({
-  declarations: [				
+  declarations: [					
     AppComponent,
       LoginComponent,
       CadastroComponent,
       DashboardComponent,
-      PerfilComponent
+      PerfilComponent,
+      NavComponent
    ],
   imports: [
     BrowserModule,
