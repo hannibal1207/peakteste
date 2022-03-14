@@ -1,3 +1,21 @@
-<p>
-  cadastro works!
-</p>
+<form>
+  <div class="form-group">
+    <label>Nome</label>
+    <input type="text" formControlName="nome">
+  </div>
+  <br>
+  <div class="form-group">
+    <label>Email</label>
+    <input type="email" formControlName="email">
+  </div>
+  <br>
+  <div class="form-group">
+    <label>Senha</label>
+    <input type="password" formControlName="senha">
+  </div>
+  <br>
+  <div>
+    <button>Cadastrar</button>
+  </div>
+</form>
+<!-- (submit)="usuarioSubmit()" [formGroup]=usuarioForm -->
